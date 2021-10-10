@@ -14,13 +14,13 @@ We also include pretrained models for the traditional networks involved in this 
 
 - **[FocusLiteNN:](https://github.com/icbcbicc/FocusLiteNN#6-license)** This is a high efficiency, shallow CNN designed for Focus Quality Assessment. The number of input channels used for the experiment were 1, 2, and 10. The accompanying paper can be found [here](https://arxiv.org/abs/2007.06565).
 
-- **[EONSS:](https://github.com/icbcbicc/EONSS-demo)** End-to-End Optimized deep neural Network using Synthetic Scores is a blind image quality assessment CNN. The accompanying paper can be found [here](https://ece.uwaterloo.ca/~z70wang/publications/iciar19_DNN.pdf)
+- **[EONSS:](https://github.com/icbcbicc/EONSS-demo)** End-to-End Optimized deep neural Network using Synthetic Scores is a blind image quality assessment CNN. The accompanying paper can be found [here](https://ece.uwaterloo.ca/~z70wang/publications/iciar19_DNN.pdf).
 
-- **[DenseNet:](https://github.com/liuzhuang13/DenseNet)** Densely Connected Convolutional Network. The accompanying paper can be found [here](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf)
+- **[DenseNet:](https://github.com/liuzhuang13/DenseNet)** Densely Connected Convolutional Network. The accompanying paper can be found [here](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf).
 
-- **[ResNet:](https://github.com/KaimingHe/deep-residual-networks)** Residual Networks. In this experiment, ResNet18, ResNet50, and ResNet101 are trained, where the number next to ResNet refers to the number of layers. The accompanying paper can be found [here](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **[ResNet:](https://github.com/KaimingHe/deep-residual-networks)** Residual Networks. In this experiment, ResNet18, ResNet50, and ResNet101 are trained, where the number next to ResNet refers to the number of layers. The accompanying paper can be found [here](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf).
 
-- **[MobileNetv2:](https://github.com/MG2033/MobileNet-V2)** Mobile CNN architecture. The accompanying paper can be found [here](https://arxiv.org/pdf/1801.04381.pdf)
+- **[MobileNetv2:](https://github.com/MG2033/MobileNet-V2)** Mobile CNN architecture. The accompanying paper can be found [here](https://arxiv.org/pdf/1801.04381.pdf).
 
 The complexities for each network used in the experiment are listed in the following table, in terms of network layers, parameters, floating point operations (FLOPs) and GPU latency for the analysis of a single 64 x 64 image.
 ![Complexity](figures/complexity_table.png)
@@ -34,7 +34,7 @@ We search the architectures on FocusPath, DeepFocus, and BioImage, then evaluate
 
 - **BioImage:** Contains 52,224 grayscale patches of size 696 x 520, with 12 separate focus classes. The training set for this experiment contains 47,001 randomly selected patches. The dataset called `BioImage` refers to a 235 x 235 input patch size, while a 64 x 64 input size dataset was also included in the experiment, called `BioImage`. The full dataset can be downloaded from the [Broad Bioimage Benchmark Collection](https://bbbc.broadinstitute.org/BBBC006).
 
-- **TCGA:** Contains 14,371 patches in total from 52 different organ types. 11,328 patches are in-focus, while 3,043 patches are out-of-focus. All patches in this dataset are used for transferability testing. The full dataset can be found on Zenodo at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3910757.svg)](https://doi.org/10.5281/zenodo.3910757)
+- **TCGA:** Contains 14,371 patches in total from 52 different organ types. 11,328 patches are in-focus, while 3,043 patches are out-of-focus. All patches in this dataset are used for transferability testing. The full dataset can be found on Zenodo at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3910757.svg)](https://doi.org/10.5281/zenodo.3910757).
 
 The following figure shows some example tissues from each of these datasets at various focus levels.
 ![Patch_Examples](figures/patch_examples.png)
