@@ -1,6 +1,6 @@
 # DARTS-FQA
 
-We propose a lightweight searched architecture for Digital Pathology applications. The network architectures are searched on [FocusPath] (https://doi.org/10.5281/zenodo.3926181), [DeepFocus] (https://zenodo.org/record/1134848#.YV8VqWLMLD4), and [BioImage] (https://bbbc.broadinstitute.org/BBBC006) datasets using [Differentiable Architecture Search (DARTS)] (https://github.com/quark0/darts), and shows strong generalizability performance relative to traditional networks.
+We propose a lightweight searched architecture for Digital Pathology applications. The network architectures are searched on [FocusPath](https://doi.org/10.5281/zenodo.3926181), [DeepFocus](https://zenodo.org/record/1134848#.YV8VqWLMLD4), and [BioImage](https://bbbc.broadinstitute.org/BBBC006) datasets using [Differentiable Architecture Search (DARTS)](https://github.com/quark0/darts), and shows strong generalizability performance relative to traditional networks.
 
 ## Architectures
 - **Overall architecture**
