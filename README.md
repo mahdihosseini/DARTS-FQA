@@ -2,6 +2,11 @@
 
 We propose a lightweight searched architecture for Digital Pathology applications. The network architectures are searched on [FocusPath](https://doi.org/10.5281/zenodo.3926181), [DeepFocus](https://zenodo.org/record/1134848#.YV8VqWLMLD4), and [BioImage](https://bbbc.broadinstitute.org/BBBC006) datasets using [Differentiable Architecture Search (DARTS)](https://github.com/quark0/darts), and shows strong generalizability performance relative to traditional networks.
 
+> [**Transferability of Deep Learning Models for Focus Quality Assessment in Digital Pathology**](https://www.researchsquare.com/article/rs-1120682/v1),            
+> Adyn Miles, Mahdi S. Hosseini, Sheyang Tang, Zhou Wang, Savvas Damaskinos, Konstantinos N. Plataniotis      
+> *In Review at Nature Scientific Reports*
+> 
+
 ## Architectures
 - **Overall architecture**
 
